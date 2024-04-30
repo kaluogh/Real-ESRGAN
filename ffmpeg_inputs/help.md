@@ -1,0 +1,1 @@
+ffmpeg -i xxx.mp4 -qscale:v 1 -qmin 1 -qmax 1 -vsync 0 out/frame%08d.png
